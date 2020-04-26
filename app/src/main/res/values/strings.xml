@@ -12,4 +12,8 @@
     <string name="menu_analysis">统计分析</string>
     <string name="menu_category">统计分类</string>
     <string name="menu_settings">系统设置</string>
+
+    <string name="menu_cash_account">资金账户</string>
+    <string name="menu_credit_account">信用账户</string>
+    <string name="menu_invest_account">投资账户</string>
 </resources>
