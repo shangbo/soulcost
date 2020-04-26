@@ -3,41 +3,36 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_account">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.loftysoul.soulcost.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_account"
+        android:name="com.loftysoul.soulcost.ui.account.AccountFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/account_fragment" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.loftysoul.soulcost.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_bills"
+        android:name="com.loftysoul.soulcost.ui.bills.BillsFragment"
+        android:label="@string/menu_bills"
+        tools:layout="@layout/bills_fragment" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.loftysoul.soulcost.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_analysis"
+        android:name="com.loftysoul.soulcost.ui.analysis.AnalysisFragment"
+        android:label="@string/menu_analysis"
+        tools:layout="@layout/analysis_fragment" />
 
     <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.loftysoul.soulcost.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        android:id="@+id/nav_category"
+        android:name="com.loftysoul.soulcost.ui.category.CategoryFragment"
+        android:label="@string/menu_category"
+        tools:layout="@layout/category_fragment" />
 
     <fragment
-        android:id="@+id/nav_share"
-        android:name="com.loftysoul.soulcost.ui.share.ShareFragment"
-        android:label="@string/menu_share"
-        tools:layout="@layout/fragment_share" />
+        android:id="@+id/nav_settings"
+        android:name="com.loftysoul.soulcost.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/settings_fragment" />
 
-    <fragment
-        android:id="@+id/nav_send"
-        android:name="com.loftysoul.soulcost.ui.send.SendFragment"
-        android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
 </navigation>
