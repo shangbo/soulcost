@@ -16,4 +16,7 @@
     <string name="menu_cash_account">资金账户</string>
     <string name="menu_credit_account">信用账户</string>
     <string name="menu_invest_account">投资账户</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

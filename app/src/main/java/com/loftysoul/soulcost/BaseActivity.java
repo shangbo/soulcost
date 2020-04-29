@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.loftysoul.soulcost.ui.account.cash.CashAccountFragment;
 import com.loftysoul.soulcost.ui.utils.ActivityUtils;
 
 import java.lang.reflect.Field;

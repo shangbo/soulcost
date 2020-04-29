@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/cashAccountFragment">
+
+    <fragment
+        android:id="@+id/cashAccountFragment"
+        android:name="com.loftysoul.soulcost.ui.account.cash.CashAccountFragment"
+        android:label="fragment_cash_account"
+        tools:layout="@layout/fragment_cash_account" />
+    <fragment
+        android:id="@+id/creditAccountFragment"
+        android:name="com.loftysoul.soulcost.ui.account.credit.CreditAccountFragment"
+        android:label="fragment_credit_account"
+        tools:layout="@layout/fragment_credit_account" />
+    <fragment
+        android:id="@+id/investAccountFragment"
+        android:name="com.loftysoul.soulcost.ui.account.Invest.InvestAccountFragment"
+        android:label="fragment_invest_account"
+        tools:layout="@layout/fragment_invest_account" />
+</navigation>
