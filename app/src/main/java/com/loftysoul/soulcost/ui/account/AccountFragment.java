@@ -92,7 +92,8 @@ public class AccountFragment extends Fragment {
 
         viewPagerAdapter = new AccountViewPagerAdapter(getChildFragmentManager());
 
-        bottomNavigationView = getView().findViewById(R.id.account_bottom_nav);
+        bottomNavigationView = getActivity().findViewById(R.id.account_bottom_nav);
+        System.out.println(bottomNavigationView);
         bottomNavigationView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener);
 
         accountViewPager = getView().findViewById(R.id.account_viewpager);
